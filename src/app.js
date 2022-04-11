@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import RoomAllocation from './components/RoomAllocation'
+
 
 class App extends Component {
   render() {
-    return <h1>Hello</h1>;
+    return <RoomAllocation guest={10}
+                            room={3}
+                            onChange={result=>console.log(result)}/>;
   }
 }
 

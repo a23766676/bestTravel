@@ -1,0 +1,32 @@
+input:focus{
+    outline: none;
+}
+.customInput-container{
+    padding: 8px;
+}
+.customInput-container .customInput-item{
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+    .customInput-container .customInput-button{
+        font-size: 30px;
+        border: 1px solid #9ecce4;
+        box-sizing: border-box;
+        color: #9ecce4;
+        vertical-align: bottom;
+        cursor: pointer;
+    }
+        .customInput-container .customInput-button.disabled{
+            border-color: #d0d0d0;
+            color: #d0d0d0;
+        }
+    .customInput-container .customInput-text{
+        font-size: 16px;
+        border: 1px solid #d0d0d0;
+        cursor: pointer;
+    }

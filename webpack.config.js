@@ -26,10 +26,15 @@ module.exports = {
                     } 
                 } 
             },
-        ]
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader']
+            },
+        ],
     },
     devServer: {
         //指定開啟port為9000
-        port: 9000
+        port: 9000,
+        hot: true,
     }
 };

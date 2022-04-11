@@ -1,0 +1,47 @@
+body{
+    font-family: "Microsoft JhengHei";
+}
+.container{
+    width: 350px;
+    padding: 10px;
+    border: 2px dashed #cccccc ;
+}
+.container .available-container{
+    background-color: #f1fdff;
+    border: 1px solid #b9e3f3;
+    color: #707070;
+    padding: 15px;
+    margin: 13px 0;
+}
+.container .title{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+}
+.container .subtitle-container{
+    min-width:60px ;
+    position: relative;
+}
+    .container .subtitle{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .container .subtitle-container .note{
+        color: #707070;
+        position: absolute;
+        left: 0;
+        font-size: 14px;
+        top: 25px;
+    }
+.container .room-container{
+    padding: 15px 8px;
+}
+.container .room-container:not(:last-child){
+    border-bottom: 1px solid #ddd;
+}
+    .container .room-container .item{
+        padding: 3px 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
